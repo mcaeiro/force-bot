@@ -2,7 +2,27 @@
   "name": "force-bot",
   "version": "1.0.0",
   "description": "My own Discord bot",
+  "engines": {
+    "node": "8.1.4"
+  },
   "main": "bot.js",
   "author": "mcaeiro",
-  "dependencies": {}
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcaeiro/force-bot.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "discord"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcaeiro/force-bot/issues"
+  },
+  "homepage": "https://github.com/mcaeiro/force-bot#readme"
 }
