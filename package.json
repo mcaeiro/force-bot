@@ -1,32 +1,31 @@
 {
   "name": "force-bot",
   "version": "1.0.0",
-  "description": "My own Discord bot",
+  "description": "My Discord.js bot on Heroku",
+  "main": "index.js",
   "engines": {
-    "node": "8.1.4"
+    "node": "8.x",
+    "npm": "*"
   },
-  "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "mcaeiro",
-  "dependencies": {
-    "discord.io": "^2.5.3",
-    "winston": "^2.4.4"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcaeiro/force-bot.git"
+    "url": "git+https://github.com/mcaeiro/force-bot.git"
   },
   "keywords": [
-    "node",
     "heroku",
-    "discord"
+    "discord.js"
   ],
-  "license": "ISC",
+  "author": "mcaeiro",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mcaeiro/force-bot/issues"
   },
-  "homepage": "https://github.com/mcaeiro/force-bot#readme"
+  "homepage": "https://github.com/mcaeiro/force-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }
