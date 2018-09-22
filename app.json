@@ -1,0 +1,19 @@
+{
+  "name": "ForceBot",
+  "description": "Discord Node.js bot",
+  "repository": "https://github.com/mcaeiro/force-bot",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+  "environments": {
+    "test": {
+      "env": {
+        "APPNAME": "ForceBot"
+      }
+      "scripts": {
+        "test-setup": "gem install rubocop",
+        "test": "rubocop ."
+      }
+    }
+  }
+}
