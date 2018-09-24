@@ -16,10 +16,10 @@ client.on('message', msg => {
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
      switch (command) {
   case "ping" :
-    message.channel.send('Pong!');
+    msg.channel.send('Pong!');
     break;
   case "blah" :
-    message.channel.send('Meh.');
+    msg.channel.send('Meh.');
     break;
 }
 });
