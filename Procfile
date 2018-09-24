@@ -1,1 +1,2 @@
-worker: npm start
+"start": "node index.js"
+"postinstall": "npm start"

@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
+    console.log('Ready ForceBot is...');
     client.user.setActivity('Do or do not, there is no try', {type: 'WATCHING'});
 });
 
