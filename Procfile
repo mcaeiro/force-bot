@@ -1,2 +1,1 @@
-"start": "node index.js"
-"postinstall": "npm start"
+"worker": "node index.js"
