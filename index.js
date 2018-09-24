@@ -14,6 +14,14 @@ client.on('message', msg => {
     const args = msg.content.split(' ').slice(1).join(' ');
     if (command === 'guide') return msg.channel.send('https://git.io/d.js-heroku');
     else if (command === 'invite') return msg.channel.send(process.env.INVITE);
+     switch (command) {
+  case "ping" :
+    message.channel.send('Pong!');
+    break;
+  case "blah" :
+    message.channel.send('Meh.');
+    break;
+}
 });
 
 client.login(process.env.CLIENT_TOKEN);
