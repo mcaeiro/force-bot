@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
     //Refresh
-    if (msg.content.toLowerCase().startsWith('refresh')) return msg.channel.send('Patience, young Padawan ' + `${message.author}` + '...');
+    if (msg.content.toLowerCase().startsWith('refresh')) return msg.channel.send(`Patience, young Padawan ${user}...`);
 
     //Extract command and args
     if (!msg.content.startsWith(process.env.PREFIX) || !msg.guild) return;
