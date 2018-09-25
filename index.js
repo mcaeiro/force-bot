@@ -30,6 +30,17 @@ client.on('message', msg => {
       case "blah" :
         msg.channel.send('Meh.');
         break;
+      case "join" :
+        // Only try to join the sender's voice channel if they are in one themselves
+        if (message.member.voiceChannel) {
+          message.member.voiceChannel.join()
+            .then(connection => { // Connection is an instance of VoiceConnection
+              message.reply('Connected to the channel have I!');
+            })
+            .catch(console.log);
+        } else {
+          message.reply('Join a voice channel first you need!');
+        }
     }
 });
 
