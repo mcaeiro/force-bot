@@ -8,20 +8,29 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+    //Refresh
     if (msg.content.toLowerCase().startsWith('refresh')) return msg.channel.send('Patience, young Padawan...');
+
+    //Extract command and args
     if (!msg.content.startsWith(process.env.PREFIX) || !msg.guild) return;
     const command = msg.content.split(' ')[0].substr(process.env.PREFIX.length);
     const args = msg.content.split(' ').slice(1).join(' ');
-    if (command === 'guide') return msg.channel.send('https://git.io/d.js-heroku');
-    else if (command === 'invite') return msg.channel.send(process.env.INVITE);
-     switch (command) {
-  case "ping" :
-    msg.channel.send('Pong!');
-    break;
-  case "blah" :
-    msg.channel.send('Meh.');
-    break;
-}
+
+    //Switch command
+    switch (command) {
+      case "guide" :
+        msg.channel.send('https://git.io/d.js-heroku');
+        break;
+      case "invite" :
+        msg.channel.send(process.env.INVITE);
+        break;
+      case "ping" :
+        msg.channel.send('Pong!');
+        break;
+      case "blah" :
+        msg.channel.send('Meh.');
+        break;
+    }
 });
 
 client.login(process.env.CLIENT_TOKEN);
