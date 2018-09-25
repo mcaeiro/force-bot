@@ -41,6 +41,14 @@ client.on('message', msg => {
         } else {
           msg.reply('Join a voice channel first you need!');
         }
+        break;
+      case "buk" :
+        // Create the attachment using Attachment
+        const attachment = new Attachment('https://i.ytimg.com/vi/b1Qg3IFFa5I/hqdefault.jpg');
+
+        // Send the attachment in the message channel with a content
+        message.channel.send(`${message.author},`, attachment);
+        break;
     }
 });
 
