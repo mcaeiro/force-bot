@@ -47,7 +47,7 @@ client.on('message', msg => {
         const attachment = new Discord.Attachment('https://i.ytimg.com/vi/b1Qg3IFFa5I/hqdefault.jpg');
 
         // Send the attachment in the message channel with a content
-        message.channel.send(`${message.author},`, attachment);
+        msg.channel.send(`${msg.author},`, attachment);
         break;
     }
 });
