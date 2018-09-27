@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 let AbilitySchema = new Schema({
     name: {type: String, required: true, max: 100},
+    code: {type: String, required: true, max: 3}
 });
 
 

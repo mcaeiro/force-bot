@@ -4,3 +4,19 @@ const Ability = require('../models/ability.model');
 exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
 };
+
+exports.ability_create = function (req, res) {
+    let ability = new Ability(
+        {
+            name: req.body.name,
+            code: req.body.code
+        }
+    );
+
+    ability.save(function (err) {
+        if (err) {
+            return next(err);
+        }
+        res.send('Ability Created successfully')
+    })
+};

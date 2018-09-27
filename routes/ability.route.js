@@ -8,3 +8,5 @@ const ability_controller = require('../controllers/ability.controller');
 // a simple test url to check that all of our files are communicating correctly.
 router.get('/test', ability_controller.test);
 module.exports = router;
+
+router.post('/create', ability_controller.ability_create);
