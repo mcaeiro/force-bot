@@ -7,8 +7,10 @@ exports.test = function (req, res) {
 
 exports.ability_create = function (req, res, next) {
 
-    console.log(req.toJson);
-    
+    console.log('Req >>>>>>>>>>>>>>>>>>>');
+    console.log(req);
+    console.log('<<<<<<<<<<<<<<<<<<< Req');
+
     let ability = new Ability(
         {
             name: req.body.name,
