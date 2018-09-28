@@ -8,7 +8,7 @@ exports.test = function (req, res) {
 exports.ability_create = function (req, res, next) {
 
     console.log('Req >>>>>>>>>>>>>>>>>>>');
-    console.log(req);
+    console.log(req.body);
     console.log('<<<<<<<<<<<<<<<<<<< Req');
 
     let ability = new Ability(
