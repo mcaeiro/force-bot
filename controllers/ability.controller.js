@@ -6,6 +6,9 @@ exports.test = function (req, res) {
 };
 
 exports.ability_create = function (req, res, next) {
+
+    console.log(req.toJson);
+    
     let ability = new Ability(
         {
             name: req.body.name,
