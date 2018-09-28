@@ -5,7 +5,7 @@ exports.test = function (req, res) {
     res.send('Greetings from the Test controller!');
 };
 
-exports.ability_create = function (req, res) {
+exports.ability_create = function (req, res, next) {
     let ability = new Ability(
         {
             name: req.body.name,
