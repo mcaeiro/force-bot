@@ -1,6 +1,7 @@
 // Discord.js bot
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const Request = require("request");
 
 client.on('ready', () => {
     console.log('Ready ForceBot is...');
@@ -49,6 +50,13 @@ client.on('message', msg => {
         // Send the attachment in the message channel with a content
         msg.channel.send(`${msg.author},`, attachment);
         break;
+      case "list" :
+        Request.get("https://force-bot.herokuapp.com/abilities/test", (error, response, body) => {
+          if(error) {
+              return console.dir(error);
+          }
+          msg.reply(JSON.parse(body));
+        });
     }
 });
 
