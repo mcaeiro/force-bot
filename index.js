@@ -55,7 +55,7 @@ client.on('message', msg => {
           if(error) {
               return console.dir(error);
           }
-          msg.reply(JSON.parse(body));
+          msg.reply(body);
         });
     }
 });
