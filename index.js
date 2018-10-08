@@ -57,6 +57,13 @@ client.on('message', msg => {
         // Send the attachment in the message channel with a content
         msg.channel.send(`${msg.author},`, attachment2);
         break;
+      case "et" :
+        // Create the attachment using Attachment
+        const attachment3 = new Discord.Attachment('https://pm1.narvii.com/6936/f147e6f8e9460fde2e75479c4aab71369eeb5a91r1-330-540v2_00.jpg');
+
+        // Send the attachment in the message channel with a content
+        msg.channel.send(`${msg.author}, now cooking...`, attachment3);
+        break;
       case "list" :
         Request.get("https://force-bot.herokuapp.com/abilities/test", (error, response, body) => {
           if(error) {
