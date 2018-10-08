@@ -1,0 +1,311 @@
+[{
+  "name": "Astrogation",
+  "type": "General",
+  "alias": "ast",
+  "ability": "int",
+  "description": "This skill represents the character's knowledge about the galaxy's stellar make-up as to allow for correct plotting of routes & making hyperspace jumps",
+  "reference": "A-BGR:22, A-CRB:116, E-BGR:22, E-CRB:104, F-BGR:22, F-CRB:114",
+  "usage": "Program a navicomputer for a hyperspace jump | Basic knowledge of galactic geography | Use navicomputer to identify location | Familiarity with hyperspace routes and the types of craft and commerce most common along a route"
+}, {
+  "name": "Athletics",
+  "type": "General",
+  "alias": "ath",
+  "ability": "bra",
+  "description": "This skill is a measure of the character's overall fitness and physical condition. Used to demonstrate a character's physical strength and athletic ability",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:117, E-BGR:22, E-CRB:105, F-BGR:22, F-CRB:115",
+  "usage": "Climb – including rappel or swing on a line – difficulty determined by surface and weather conditions | Swim – difficulty determined by water conditions (waves, currents and tides) | Jump horizontally or vertically – difficulty determined by gravitational conditions and distance required | Push movement to a longer speed or run for an extended time"
+}, {
+  "name": "Brawl",
+  "type": "Combat",
+  "alias": "brw",
+  "ability": "bra",
+  "description": "This combat skill represents the ability of a character to fight hand-to-hand without weapons or through martial arts",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:131, E-BGR:22, E-CRB:120, F-BGR:22, F-CRB:129",
+  "usage": "Make a melee attack while unarmed or using a Brawl weapon"
+}, {
+  "name": "Charm",
+  "type": "General",
+  "alias": "cha",
+  "ability": "pre",
+  "description": "This social skill measures the character's ability to make just the right compliments and say just the right things to bring people onto their side. Opposed by Cool",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:117, E-BGR:22, E-CRB:105, F-BGR:22, F-CRB:116",
+  "usage": "Persuade an individual to make a special exception to usual practices through flattery, flirting and grace | Appeal to an individual’s better nature, requiring them to go out of their way to aid the characters without any hope of remuneration | Sincere seduction attempts (use Deception when interest is feigned)"
+},{
+  "name": "Coercion",
+  "type": "General",
+  "alias": "coe",
+  "ability": "wil",
+  "description": "This social skill is a character's ability to intimidate or threaten another into submission. Opposed by Discipline",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:118, E-BGR:22*, E-CRB:106, F-BGR:22, F-CRB:116",
+  "usage": "Issue a threat, whether accompanied by hostile actions or implied, such as gesturing or pointing towards a weapon | Question or persuade a target under conditions of physical captivity | Acts of torture"
+}
+,{
+  "name": "Computers",
+  "type": "General",
+  "alias": "comp",
+  "ability": "int",
+  "description": "This skill governs a character's ability to use all aspects of a computer system, such as browsing HoloNet or repairing/conducting maintenance on the coding structures",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:119, E-BGR:22, E-CRB:107, F-BGR:22, F-CRB:118",
+  "usage": "Open a locked door, control an elevator or bypass a security system | Search through records, particularly if encrypted | Investigate what actions a slicer might have taken against a computer system | Alter a droid’s programming or gain access to its memories | Recover data from a system that has suffered physical damage"
+}
+,{
+  "name": "Cool",
+  "type": "General",
+  "alias": "cool",
+  "ability": "pre",
+  "description": "This skill represents a character's ability to remain calm in the face of danger",
+  "reference": "RaGP:7, A-BGR:22, A-CRB:120, E-BGR:23, E-CRB:108, F-BGR:22, F-CRB:118",
+  "usage": "Resist efforts to hide the truth among overt niceties | Check for initiative when carefully and calmly prepared | Check for initiative in a social situation/discussion where timing matters"
+}
+,{
+  "name": "Coordination",
+  "type": "General",
+  "alias": "coord",
+  "ability": "agi",
+  "description": "This skill is used in addition to Athletics, measuring a character's nimbleness and swiftness - i.e. flexibility",
+  "reference": "RaGP:7, A-BGR:23, A-CRB:121, E-BGR:23, E-CRB:109, F-BGR:22, F-CRB:119",
+  "usage": "Reduce damage when falling | Walk across a narrow surface, whether a wide beam or a thin pipe | Escape from restraints | Crawl through the twists and turns of a sewage pipe, ventilation duct or garbage chute"
+}
+,{
+  "name": "Core Worlds",
+  "type": "Knowledge",
+  "alias": "kcw",
+  "ability": "int",
+  "description": "This skill covers the amount of knowledge a character knows about the worlds of the galactic Core, such as Coruscant and Corellia",
+  "reference": "A-CRB:134, E-CRB:123, F-CRB:132",
+  "usage": "Identify a person’s planet of origin without asking, by recognising traits of accent, dress and mannerisms associated with a particular world | Know what behaviours are considered necessary and polite, as opposed to ones that could be offensive when interacting with someone from a Core World | Identify which markets are the best places to sell or purchase a particular cargo (in the Core Worlds) | Recognise any worlds where such goods could be illegal"
+}
+,{
+  "name": "Deception",
+  "type": "General",
+  "alias": "dec",
+  "ability": "cun",
+  "description": "This social skill judges the character's ability to trick others into believing falsehoods. Opposed by Discipline",
+  "reference": "A-BGR:23, A-CRB:121, E-BGR:23*, E-CRB:109, F-BGR:23, F-CRB:120",
+  "usage": "Mislead a buyer or seller about the value of an object | Distract an opponent through guile | Lay a false trail when pursued"
+}
+,{
+  "name": "Discipline",
+  "type": "General",
+  "alias": "dis",
+  "ability": "wil",
+  "description": "This skill is a character's ability to maintain their composure when faced with a surprising force. It is used to protect against the effects of Leadership, Coercion and Deception",
+  "reference": "RaGP:7, RaGP:7, A-BGR:23, A-CRB:122, E-BGR:23, E-CRB:110, F-BGR:23, F-CRB:120",
+  "usage": "Act normally while pinned down by heavy fire | Engage, rather than flee before, a creature with inherently horrifying aspects | Resist a tempting deal that seems far too good to be true"
+}
+,{
+  "name": "Education",
+  "type": "Knowledge",
+  "alias": "ked",
+  "ability": "int",
+  "description": "This skill encompasses a character's background knowledge from growing up and going to school or university",
+  "reference": "A-CRB:135, E-CRB:123, F-CRB:132",
+  "usage": "Identify the best way to proceed when interacting with a government entity | Employ basic scientific knowledge in an analysis | Understand any question that doesn’t obviously fall under another knowledge skill"
+}
+,{
+  "name": "Gunnery",
+  "type": "Combat",
+  "alias": "gun",
+  "ability": "agi",
+  "description": "This combat skill determines a character's proficiency in using vehicle-mounted weaponry and very heavy personal weapons such as missile tubes and heavy repeating blasters",
+  "reference": "A-BGR:23, A-CRB:131, E-BGR:23, E-CRB:120, F-BGR:23, F-CRB:130",
+  "usage": "Make a ranged attack using a Gunnery weapon | Operate complex targeting computers and automated weapons mounts"
+}
+,{
+  "name": "Leadership",
+  "type": "General",
+  "alias": "lead",
+  "ability": "pre",
+  "description": "This skill is the character's ability to command and lead a group of people, being firm and decisive. Opposed by Discipline",
+  "reference": "RaGP:7, A-BGR:23, A-CRB:123, E-BGR:23, E-CRB:111, F-BGR:23, F-CRB:121",
+  "usage": "Rally allies subject to the effects of fear | Sway a crowd in a public venue to take action, most often of a political nature | Reassert the loyalty of underlings that have fallen before the guile of an opponent"
+}
+,{
+  "name": "Lightsaber",
+  "type": "Combat",
+  "alias": "lsbr",
+  "ability": "bra",
+  "description": "As the name indicates, this combat skill determines a character's ability to use a lightsaber. Certain specializations may switch the underlying characteristic from Brawn to another such as Agility",
+  "reference": "E-CRB:412, F-BGR:23, F-CRB:130",
+  "usage": "Make a melee attack using a Lightsaber"
+}
+,{
+  "name": "Lore",
+  "type": "Knowledge",
+  "alias": "klore",
+  "ability": "int",
+  "description": "This skill represents a character's knowledge of the ancient galaxy and its history",
+  "reference": "A-CRB:135, E-CRB:123, F-CRB:132",
+  "usage": "Decipher an ancient piece of writing or identify its context | Know legends associated with the exploits of an ancient hero"
+}
+,{
+  "name": "Mechanics",
+  "type": "General",
+  "alias": "mech",
+  "ability": "int",
+  "description": "This skill represents a characters ability and prowess in working on all things from weapons to droids and ships",
+  "reference": "RaGP:7, A-BGR:23, A-CRB:124, E-BGR:24, E-CRB:111, F-BGR:23, F-CRB:122",
+  "usage": "Repair physical damage to a device, provided necessary tools and replacement components are available | Repair starship or vehicle | Identify the parts and tools necessary for a repair job, along with approximate cost | Construct a completely new device from discrete components and damaged devices | Make a healing check on a droid"
+}
+,{
+  "name": "Medicine",
+  "type": "General",
+  "alias": "med",
+  "ability": "int",
+  "description": "This skill represents a character's ability to perform medical procedures",
+  "reference": "RaGP:7, A-BGR:23, A-CRB:125, E-BGR:24, E-CRB:112, F-BGR:23, F-CRB:122",
+  "usage": "Apply routine first aid, including medpacs | Treat or inflict a poison, pharmaceutical or recreational drug | Identify symptoms and treatment for infectious diseases and parasites | More serious treatment – including surgery, cybernetic augmentation and psychotherapy, provided necessary pharmaceuticals and medical instruments are available"
+}
+,{
+  "name": "Melee",
+  "type": "Combat",
+  "alias": "mel",
+  "ability": "bra",
+  "description": "This combat skill represents a character's proficiency with any melee weapon such as knives and swords",
+  "reference": "RaGP:7, A-BGR:24, A-CRB:133, E-BGR:24, E-CRB:121, F-BGR:24, F-CRB:131",
+  "usage": "Make a melee attack using a Melee weapon"
+}
+,{
+  "name": "Negotiation",
+  "type": "General",
+  "alias": "neg",
+  "ability": "pre",
+  "description": "This social skill represents a character's ability to barter and keep their cool when trading. Opposed by Cool",
+  "reference": "RaGP:7, A-BGR:24, A-CRB:125, E-BGR:24*, E-CRB:113, F-BGR:24, F-CRB:123",
+  "usage": "Adjust the purchase price when buying goods or services | Adjust the selling price when selling goods or services | Participate in skill-based gambling (use Deception when cheating)"
+}
+,{
+  "name": "Outer Rim",
+  "type": "Knowledge",
+  "alias": "kor",
+  "ability": "int",
+  "description": "This skill represents a character's knowledge about the worlds of the Outer Rim, such as the Hutt territories",
+  "reference": "A-CRB:135, E-CRB:124, F-CRB:133",
+  "usage": "Find a planet with a particular resource or service among the systems of the Outer Rim | Identify which markets are the best places to sell or purchase a particular cargo (in the Outer Rim) | Recognise any worlds where such goods could be illegal | Know what behaviours are considered necessary and polite, as opposed to ones that could be offensive when interacting with someone from an Outer Rim world"
+}
+,{
+  "name": "Perception",
+  "type": "General",
+  "alias": "per",
+  "ability": "cun",
+  "description": "This skill represents a character's ability to notice subtle clues and things out of place which may hint to an impeding event. Opposed by skill used for concealment",
+  "reference": "RaGP:8, A-BGR:24, A-CRB:126, E-BGR:24, E-CRB:114, F-BGR:24, F-CRB:124",
+  "usage": "Detect a trap or ambush, prior to falling prey to the assault | Detect a disguised individual, when not actively looking | Notice a subtle clue – overheard conversation, the stink of a Jawa, drug introduced to beverage | Accidently notice subtly hidden objects, such as the latch securing a smuggling compartment"
+}
+,{
+  "name": "Piloting [Planetary]",
+  "type": "General",
+  "alias": "pilp",
+  "ability": "agi",
+  "description": "This skill represents a character's ability to drive and fly atmospheric walkers and speeders in any condition and even when damaged",
+  "reference": "A-CRB:126, E-CRB:115, F-CRB:124",
+  "usage": "Decipher basic controls of completely foreign type of atmospheric craft | Determine results of a race upon a world’s surface | Maintain a tail or lose a chaser | Navigate through a familiar environment, representing knowledge of typical traffic patterns"
+}
+,{
+  "name": "Piloting [Space]",
+  "type": "General",
+  "alias": "pils",
+  "ability": "agi",
+  "description": "This skill represents a character's ability to pilot starships and other stellar vessels",
+  "reference": "A-CRB:127, E-CRB:116, F-CRB:125",
+  "usage": "Determine results of a race between the stars | Resolve chases, whether through asteroid belts, a crowded battlefield or skirting the edge of a gravimetric instability | Jockey for position in a space conflict, to determine which shields face the enemy and which weapons may be brought to bear"
+}
+,{
+  "name": "Ranged [Heavy]",
+  "type": "Combat",
+  "alias": "rgh",
+  "ability": "agi",
+  "description": "This skill is a character's proficiency in using weapons such as rifles, carbines and large assault weapons",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:133, E-BGR:24, E-CRB:121, F-BGR:25, F-CRB:131",
+  "usage": "Make a ranged attack using a Ranged (Heavy) weapon"
+}
+,{
+  "name": "Ranged [Light]",
+  "type": "Combat",
+  "alias": "rgl",
+  "ability": "agi",
+  "description": "This skill represents a character's ability to use lighter ranged weapons such as pistols",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:133, E-BGR:24, E-CRB:122, F-BGR:25, F-CRB:131",
+  "usage": "Make a ranged attack using a Ranged (Light) weapon"
+}
+,{
+  "name": "Resilience",
+  "type": "General",
+  "alias": "res",
+  "ability": "bra",
+  "description": "This skill determines the ability for the body of a character to handle over-extension, sleep deprivation and hazardous environments including poisons",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:127, E-BGR:24, E-CRB:116, F-BGR:25, F-CRB:125",
+  "usage": "Go without sleep for significantly longer than is healthy for species | Resist the effects of a toxin | Endure prolonged exposure to a hostile environment – including heat, cold or toxic pollution | Resist the effects of dehydration and malnutrition"
+}
+,{
+  "name": "Skullduggery",
+  "type": "General",
+  "alias": "skl",
+  "ability": "cun",
+  "description": "This skill represents a character's sleight of hand and overall proficiency in underhanded criminal techniques such as physically picking a lock or pickpocketing. Opposed by Perception",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:128, E-BGR:24, E-CRB:116, F-BGR:25, F-CRB:126",
+  "usage": "Pick a lock or pocket using physical tools rather than programming | Escape from a cell (after using Coordination to slip any bonds) and navigate away from security elements | Identify the most vulnerable aspects of a security scheme"
+}
+,{
+  "name": "Stealth",
+  "type": "General",
+  "alias": "ste",
+  "ability": "agi",
+  "description": "This skill is representative of a character's ability to blend in with their surroundings and appear inconspicuous. Opposed by Perception",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:128, E-BGR:25, E-CRB:117, F-BGR:25, F-CRB:126",
+  "usage": "Blend in with a crowd, hiding by acting as though you belong | Hide from an opponent’s senses, modified by ambient conditions and applicable gear | Hide people or objects from the attentions of others, either through concealment or misdirection"
+}
+,{
+  "name": "Streetwise",
+  "type": "General",
+  "alias": "strt",
+  "ability": "cun",
+  "description": "This skill is a character's experience living and working through the underworld; understanding the criminal lingo",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:130, E-BGR:25, E-CRB:118, F-BGR:25, F-CRB:127",
+  "usage": "Locate a merchant who specialises in unsavoury goods or illicit services | Pick up subtle cues from the language and attitudes of those who operate outside of legal structures | Understand subtle references within conversations | Discover what rumours are actively circulating within a region "
+}
+,{
+  "name": "Survival",
+  "type": "General",
+  "alias": "surv",
+  "ability": "cun",
+  "description": "This skill represents a character's ability to live in the wilderness and a hostile environment",
+  "reference": "RaGP:8, A-BGR:25, A-CRB:130, E-BGR:25, E-CRB:119, F-BGR:25",
+  "usage": "Identify safe food, potable water or shelter in a natural environment | Understand weather patterns Recognise the signs of imminent dangerous conditions and know the best way to prepare | Track a subject through the wilderness – whether game or bounty | Handle domesticated animals, so they may be used as beasts of burden or transport"
+}
+,{
+  "name": "Underworld",
+  "type": "Knowledge",
+  "alias": "kuw",
+  "ability": "int",
+  "description": "This skill determines a character's understanding of the workings of the underworld and criminals",
+  "reference": "A-CRB:136, E-CRB:124, F-CRB:133",
+  "usage": "Know which nearby worlds are the best locations for a particular type of illegal business | Determine the most common methods an opponent might use for a particular type of criminal activity"
+}
+,{
+  "name": "Vigilance",
+  "type": "General",
+  "alias": "vig",
+  "ability": "wil",
+  "description": "This skill represents a character's ability to take notice of events happening in their surroundings and peripheral vision",
+  "reference": "RaGP:8, A-BGR:25, E-BGR:25, E-CRB:119, E-CRB:130, F-BGR:25, F-CRB:129",
+  "usage": "Check for initiative when unprepared | Use ability associated with the Force dependent on Vigilance | Determine how prepared you are for unexpected crises Resolve questions about whether or not a small piece of gear is available"
+}
+,{
+  "name": "Warfare",
+  "type": "Knowledge",
+  "alias": "kwar",
+  "ability": "int",
+  "description": "This skill governs a character's knowledge of the art of war, such as tactical movement of armies and strategic position or direction",
+  "reference": "A-CRB:136",
+  "usage": "Figuring out the best tactic for a certain battlefield | Remembering details about a significant battle or war"
+}
+,{
+  "name": "Xenology",
+  "type": "Knowledge",
+  "alias": "kxn",
+  "ability": "int",
+  "description": "This skill determines a character's knowledge on the differences between different species, fauna and flora of the galaxy",
+  "reference": "A-CRB:137, E-CRB:125, F-CRB:133}, {",
+  "usage": "Know what behaviours are considered necessary and polite, as opposed to ones that could be offensive when interacting with a member of an unfamiliar species | Identify a particular way to injure or a characteristic vulnerability, to either help or harm a member of another species | Know appropriate environmental conditions and foodstuffs for a member of another species"
+}]

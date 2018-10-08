@@ -1,0 +1,25 @@
+[{
+  "name": "Brawn",
+  "alias": "bra",
+  "description": ""
+}, {
+  "name": "Agility",
+  "alias": "agi",
+  "description": ""
+}, {
+  "name": "Intellect",
+  "alias": "int",
+  "description": ""
+}, {
+  "name": "Cunning",
+  "alias": "cun",
+  "description": ""
+}, {
+  "name": "Willpower",
+  "alias": "wil",
+  "description": ""
+}, {
+  "name": "Presence",
+  "alias": "pre",
+  "description": ""
+}]

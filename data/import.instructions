@@ -1,0 +1,5 @@
+# Using mongoimport to import json files
+# mongoimport --db <db-name> --collection <coll-name> --type json --file seed.json --jsonArray
+
+# Abilities
+mongoimport --db <checkname> --collection abilities --type json --file abilities.json --jsonArray
