@@ -14,7 +14,7 @@ client.on('message', msg => {
 
     //Extract command and args
     if (!msg.content.startsWith(process.env.PREFIX) || !msg.guild) return;
-    const command = msg.content.split(' ')[0].substr(process.env.PREFIX.length);
+    const command = (msg.content.split(' ')[0].substr(process.env.PREFIX.length)).toLowerCase();
     const args = msg.content.split(' ').slice(1).join(' ');
 
     //Switch command
