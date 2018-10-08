@@ -52,10 +52,10 @@ client.on('message', msg => {
         break;
       case "mad" :
         // Create the attachment using Attachment
-        const attachment = new Discord.Attachment('https://www.theshirtlist.com/wp-content/uploads/2017/02/Like-A-Boss.jpg');
+        const attachment2 = new Discord.Attachment('https://www.theshirtlist.com/wp-content/uploads/2017/02/Like-A-Boss.jpg');
 
         // Send the attachment in the message channel with a content
-        msg.channel.send(`${msg.author},`, attachment);
+        msg.channel.send(`${msg.author},`, attachment2);
         break;
       case "list" :
         Request.get("https://force-bot.herokuapp.com/abilities/test", (error, response, body) => {
