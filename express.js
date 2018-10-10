@@ -21,6 +21,11 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
+// set the home page route
+app.get('/', function(req, res) {
+  res.send('<h3>Welcome to Force-Bot homepage</h3>');
+});
+
 app.use('/abilities', ability);
 
 app.listen(port, () => {
