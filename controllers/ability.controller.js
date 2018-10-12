@@ -40,3 +40,10 @@ exports.ability_details = function (req, res) {
         res.send(ability);
     })
 };
+
+exports.ability_update = function (req, res) {
+    Ability.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, ability) {
+        if (err) return next(err);
+        res.send('Ability updated.');
+    });
+};
