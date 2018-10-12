@@ -2,7 +2,7 @@ const Ability = require('../models/ability.model');
 
 //Simple version, without validation or sanitation
 exports.test = function (req, res) {
-    res.send('Greetings from the Test controller!');
+    res.send('Greetings from the Ability controller!');
 };
 
 exports.ability_create = function (req, res, next) {
@@ -52,5 +52,12 @@ exports.ability_delete = function (req, res) {
     Ability.findByIdAndRemove(req.params.id, function (err) {
         if (err) return next(err);
         res.send('Deleted successfully!');
+    })
+};
+
+exports.ability_all = function (req, res) {
+    Ability.find({}, { projection: { _id: 0, name: 1, alias: 1, description: 1 }}), function (err, ability) {
+        if (err) return next(err);
+        res.send(ability);
     })
 };
