@@ -10,5 +10,6 @@ router.get('/test', ability_controller.test);
 
 //Abilities CRUD
 router.post('/create', ability_controller.ability_create);
+router.get('/:id', ability_controller.ability_details);
 
 module.exports = router;

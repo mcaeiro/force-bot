@@ -25,11 +25,18 @@ exports.ability_create = function (req, res, next) {
     //   "alias": "bra",
     //   "description": ""
     // }
-    
+
     ability.save(function (err) {
         if (err) {
             return next(err);
         }
         res.send('Ability Created successfully')
+    })
+};
+
+exports.ability_details = function (req, res) {
+    Ability.findById(req.params.id, function (err, ability) {
+        if (err) return next(err);
+        res.send(ability);
     })
 };
