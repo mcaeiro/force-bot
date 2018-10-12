@@ -14,10 +14,18 @@ exports.ability_create = function (req, res, next) {
     let ability = new Ability(
         {
             name: req.body.name,
-            code: req.body.code
+            alias: req.body.alias,
+            description: req.body.description
         }
     );
 
+    //e.g.
+    // {
+    //   "name": "Brawn",
+    //   "alias": "bra",
+    //   "description": ""
+    // }
+    
     ability.save(function (err) {
         if (err) {
             return next(err);
