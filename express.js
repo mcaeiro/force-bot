@@ -9,8 +9,8 @@ var port = process.env.PORT || 8080;
 
 // Set up mongoose connection
 const mongoose = require('mongoose');
-let dev_db_url = 'mongodb://someuser:abcd1234@ds123619.mlab.com:23619/productstutorial';
-let mongoDB = process.env.MONGODB_URI || dev_db_url;
+// let dev_db_url = 'mongodb://someuser:abcd1234@ds123619.mlab.com:23619/productstutorial';
+let mongoDB = process.env.MONGODB_URI; // || dev_db_url;
 
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
@@ -32,6 +32,7 @@ app.listen(port, () => {
   console.log('Server is up and running on port number ' + port);
 });
 
+// Keeping the bot awake by creating a request every 10 mins
 var http = require("http");
 
 setInterval(function() {
