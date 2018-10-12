@@ -12,5 +12,6 @@ router.get('/test', ability_controller.test);
 router.post('/create', ability_controller.ability_create);
 router.get('/:id', ability_controller.ability_details);
 router.put('/:id/update', ability_controller.ability_update);
+router.delete('/:id/delete', ability_controller.ability_delete);
 
 module.exports = router;

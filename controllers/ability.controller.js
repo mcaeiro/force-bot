@@ -47,3 +47,10 @@ exports.ability_update = function (req, res) {
         res.send('Ability updated.');
     });
 };
+
+exports.ability_delete = function (req, res) {
+    Ability.findByIdAndRemove(req.params.id, function (err) {
+        if (err) return next(err);
+        res.send('Deleted successfully!');
+    })
+};
