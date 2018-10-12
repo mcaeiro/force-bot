@@ -31,3 +31,10 @@ app.use('/abilities', ability);
 app.listen(port, () => {
   console.log('Server is up and running on port number ' + port);
 });
+
+var http = require("http");
+
+setInterval(function() {
+    console.log ('Keeping it awake... ' + Date.now());
+    http.get("http://force-bot.herokuapp.com");
+}, 600000); // every 10 minutes (600000)
