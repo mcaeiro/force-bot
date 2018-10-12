@@ -1,25 +1,25 @@
 [{
   "name": "Brawn",
   "alias": "bra",
-  "description": ""
+  "description": "Represents a blend of a character's brute power, strength and overall toughness, as well as the ability to apply  those attributes as needed. Characters with high Brawn are phisically fit and hardy, tend not to get sick often and have strong constitutions"
 }, {
   "name": "Agility",
   "alias": "agi",
-  "description": ""
+  "description": "Measures a character's manual dexterity, hand-eye coordination and body control. Characters with a high Agility have a good sense of balance, flexibility and deft hands"
 }, {
   "name": "Intellect",
   "alias": "int",
-  "description": ""
+  "description": "Measures a character's intelligence, education, mental acuity and ability to reason and racionalize. Characters with a high Intellect can extrapolate or interpolate data, can recall details and draw from previous experiences and can think of long-term strategies and envision the ramifications of present actions"
 }, {
   "name": "Cunning",
   "alias": "cun",
-  "description": ""
+  "description": "Reflects how crafty, devious, clever and creative a character can be. Characters with a high Cunning are savvy, quickly pick up on social and environmental clues and can more readily come up with short-term plans and tactics"
 }, {
   "name": "Willpower",
   "alias": "wil",
-  "description": ""
+  "description": "Reflects a character's discipline, self-control, mental fortitude and faith. Characters with a high Willpower can withstand stress and fatigue, remain composed during chaotic situations and exert influence over the weaker-willed"
 }, {
   "name": "Presence",
   "alias": "pre",
-  "description": ""
+  "description": "Is a measure of the character's moxie, charisma, confidence and force of personality. Characters with a high Presence make natural leaders, draw attention when they enter a room, can easily strike up a conversation with nearly anyone and are quick to adapt to social situations"
 }]
