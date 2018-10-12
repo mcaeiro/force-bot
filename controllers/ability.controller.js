@@ -56,7 +56,7 @@ exports.ability_delete = function (req, res) {
 };
 
 exports.ability_all = function (req, res) {
-    Ability.find({}, { projection: { _id: 0, name: 1, alias: 1, description: 1 }}), function (err, ability) {
+    Ability.find({}, { projection: { _id: 0, name: 1, alias: 1, description: 1 }}, function (err, ability) {
         if (err) return next(err);
         res.send(ability);
     })
