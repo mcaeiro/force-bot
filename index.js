@@ -12,6 +12,14 @@ client.on('message', msg => {
     //Refresh
     if (msg.content.toLowerCase().startsWith('refresh')) return msg.channel.send("Patience, young Padawan" + msg.author.toString() + "...");
 
+if (msg.content.toLowerCase().startsWith('5 min')) {
+        // Create the attachment using Attachment
+        const attachment4 = new Discord.Attachment('https://media.makeameme.org/created/ill-be-there-5b19a8.jpg');
+
+        // Send the attachment in the message channel with a content
+        msg.channel.send(`${msg.author}...`, attachment4);
+}
+
     //Extract command and args
     if (!msg.content.startsWith(process.env.PREFIX) || !msg.guild) return;
     const command = (msg.content.split(' ')[0].substr(process.env.PREFIX.length)).toLowerCase();
